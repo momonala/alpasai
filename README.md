@@ -99,6 +99,9 @@ note: This model setup is was chosen because it's best to start simple when buil
 ## Usage
 
 ### Training
+
+To train the model, copy the .csv data file to the data/ directory and run the training script.
+
 ```bash
 python -m entity_matcher.train --data_path data/ds_challenge_alpas.csv
 ```
